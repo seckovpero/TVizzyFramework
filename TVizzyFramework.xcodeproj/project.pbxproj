@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		69384F8969373EF5491B76DF /* libPods-TVizzyFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ECEB9CE76772D28F0BE9D5B /* libPods-TVizzyFramework.a */; };
 		F4A8641D205FF3D800849A7B /* TVizzyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A8641B205FF3D800849A7B /* TVizzyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4EFD673205FF84800EB9A4D /* FantasticView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EFD671205FF84800EB9A4D /* FantasticView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4EFD674205FF84800EB9A4D /* FantasticView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EFD672205FF84800EB9A4D /* FantasticView.m */; };
+		F4EFD673205FF84800EB9A4D /* LoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EFD671205FF84800EB9A4D /* LoginView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4EFD674205FF84800EB9A4D /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EFD672205FF84800EB9A4D /* LoginView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +20,8 @@
 		F4A86418205FF3D800849A7B /* TVizzyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TVizzyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A8641B205FF3D800849A7B /* TVizzyFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVizzyFramework.h; sourceTree = "<group>"; };
 		F4A8641C205FF3D800849A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4EFD671205FF84800EB9A4D /* FantasticView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FantasticView.h; sourceTree = "<group>"; };
-		F4EFD672205FF84800EB9A4D /* FantasticView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FantasticView.m; sourceTree = "<group>"; };
+		F4EFD671205FF84800EB9A4D /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		F4EFD672205FF84800EB9A4D /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +74,8 @@
 		F4A8641A205FF3D800849A7B /* TVizzyFramework */ = {
 			isa = PBXGroup;
 			children = (
-				F4EFD671205FF84800EB9A4D /* FantasticView.h */,
-				F4EFD672205FF84800EB9A4D /* FantasticView.m */,
+				F4EFD671205FF84800EB9A4D /* LoginView.h */,
+				F4EFD672205FF84800EB9A4D /* LoginView.m */,
 				F4A8641B205FF3D800849A7B /* TVizzyFramework.h */,
 				F4A8641C205FF3D800849A7B /* Info.plist */,
 			);
@@ -90,7 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4A8641D205FF3D800849A7B /* TVizzyFramework.h in Headers */,
-				F4EFD673205FF84800EB9A4D /* FantasticView.h in Headers */,
+				F4EFD673205FF84800EB9A4D /* LoginView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4EFD674205FF84800EB9A4D /* FantasticView.m in Sources */,
+				F4EFD674205FF84800EB9A4D /* LoginView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

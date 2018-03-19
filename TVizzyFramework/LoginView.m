@@ -6,11 +6,11 @@
 //  Copyright © 2018 AspidaMacBook. All rights reserved.
 //
 
-#import "FantasticView.h"
+#import "LoginView.h"
 #import <Masonry/Masonry.h>
 #include <stdlib.h>
 
-@implementation FantasticView
+@implementation LoginView
 
 -(instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];

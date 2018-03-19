@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FantasticView : UIView
+@interface LoginView : UIView
 
 @property (nonatomic,strong) UILabel *label1;
 @property (nonatomic,strong) UILabel *label2;
