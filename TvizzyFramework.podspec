@@ -28,7 +28,7 @@ s.dependency 'Masonry'
 #s.dependency 'MBProgressHUD', '~> 0.9.0'
 
 # 8
-s.source_files = "TVizzyFramework/**/*.{h,m}"
+#s.source_files = "TVizzyFramework/**/*.{h,m}"
 
 # 9
 #s.resources = "TVizzyFramework/**/*.{png,jpeg,jpg,storyboard,xib}"
