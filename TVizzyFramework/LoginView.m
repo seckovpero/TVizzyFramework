@@ -49,7 +49,7 @@
 
 -(void)changeColors {
     
-    _timer = [NSTimer scheduledTimerWithTimeInterval:1.5 repeats:YES block:^(NSTimer * _Nonnull timer) {
+    _timer = [NSTimer scheduledTimerWithTimeInterval:3.0 repeats:YES block:^(NSTimer * _Nonnull timer) {
         _counter ++;
         self.label1.backgroundColor = _colors[(_counter+1)%_colors.count];
         self.label2.backgroundColor = _colors[(_counter)%_colors.count];
