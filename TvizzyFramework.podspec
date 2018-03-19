@@ -8,7 +8,7 @@ s.summary = "TVizzyFramework includes the actions from TVizzy app"
 s.requires_arc = true
 
 # 2
-s.version = "0.1.2"
+s.version = "0.1.3"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -20,7 +20,7 @@ s.author = { "Pero" => "seckovpero@gmail.com" }
 s.homepage = "https://github.com/seckovpero/TVizzyFramework"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :http => "https://www.dropbox.com/s/5uh4psrm03b57tw/TVizzyFramework.zip?dl=0"}
+s.source = { :http => "https://www.dropbox.com/s/hczmyp7047rvc0y/TVizzyFramework.zip?dl=0"}
 s.ios.vendored_frameworks = 'TVizzyFramework.framework'
 # 7
 s.framework = "UIKit"
