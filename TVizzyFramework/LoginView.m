@@ -27,10 +27,10 @@
 -(void)setupViews {
     
     self.label1 = [[UILabel alloc] init];
-    self.label1.backgroundColor = [UIColor redColor];
+    self.label1.backgroundColor = [UIColor orangeColor];
     
     self.label2 = [[UILabel alloc] init];
-    self.label2.backgroundColor = [UIColor greenColor];
+    self.label2.backgroundColor = [UIColor blackColor];
     
     [self addSubview:_label1];
     [self addSubview:_label2];
