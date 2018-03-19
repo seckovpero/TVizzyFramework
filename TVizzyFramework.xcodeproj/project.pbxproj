@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69384F8969373EF5491B76DF /* libPods-TVizzyFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ECEB9CE76772D28F0BE9D5B /* libPods-TVizzyFramework.a */; };
 		F4A8641D205FF3D800849A7B /* TVizzyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A8641B205FF3D800849A7B /* TVizzyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4EFD673205FF84800EB9A4D /* FantasticView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EFD671205FF84800EB9A4D /* FantasticView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4EFD674205FF84800EB9A4D /* FantasticView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EFD672205FF84800EB9A4D /* FantasticView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0ECEB9CE76772D28F0BE9D5B /* libPods-TVizzyFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TVizzyFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7104113F87E743352DC9B7D7 /* Pods-TVizzyFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVizzyFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-TVizzyFramework/Pods-TVizzyFramework.release.xcconfig"; sourceTree = "<group>"; };
+		9E20736B780D66894DE0BC42 /* Pods-TVizzyFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVizzyFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVizzyFramework/Pods-TVizzyFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		F4A86418205FF3D800849A7B /* TVizzyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TVizzyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A8641B205FF3D800849A7B /* TVizzyFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVizzyFramework.h; sourceTree = "<group>"; };
 		F4A8641C205FF3D800849A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4EFD671205FF84800EB9A4D /* FantasticView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FantasticView.h; sourceTree = "<group>"; };
+		F4EFD672205FF84800EB9A4D /* FantasticView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FantasticView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +29,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69384F8969373EF5491B76DF /* libPods-TVizzyFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0510F719F227C5F1101E75B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E20736B780D66894DE0BC42 /* Pods-TVizzyFramework.debug.xcconfig */,
+				7104113F87E743352DC9B7D7 /* Pods-TVizzyFramework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB7AA42EF8EBFF27BDB916FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0ECEB9CE76772D28F0BE9D5B /* libPods-TVizzyFramework.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F4A8640E205FF3D700849A7B = {
 			isa = PBXGroup;
 			children = (
 				F4A8641A205FF3D800849A7B /* TVizzyFramework */,
 				F4A86419205FF3D800849A7B /* Products */,
+				0510F719F227C5F1101E75B8 /* Pods */,
+				CB7AA42EF8EBFF27BDB916FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,6 +74,8 @@
 		F4A8641A205FF3D800849A7B /* TVizzyFramework */ = {
 			isa = PBXGroup;
 			children = (
+				F4EFD671205FF84800EB9A4D /* FantasticView.h */,
+				F4EFD672205FF84800EB9A4D /* FantasticView.m */,
 				F4A8641B205FF3D800849A7B /* TVizzyFramework.h */,
 				F4A8641C205FF3D800849A7B /* Info.plist */,
 			);
@@ -60,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4A8641D205FF3D800849A7B /* TVizzyFramework.h in Headers */,
+				F4EFD673205FF84800EB9A4D /* FantasticView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,10 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4A86420205FF3D800849A7B /* Build configuration list for PBXNativeTarget "TVizzyFramework" */;
 			buildPhases = (
+				A109C0DBED6184C3C192663A /* [CP] Check Pods Manifest.lock */,
 				F4A86413205FF3D800849A7B /* Sources */,
 				F4A86414205FF3D800849A7B /* Frameworks */,
 				F4A86415205FF3D800849A7B /* Headers */,
 				F4A86416205FF3D800849A7B /* Resources */,
+				E1E34BD674F2D5B0E490CE09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,11 +159,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A109C0DBED6184C3C192663A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TVizzyFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1E34BD674F2D5B0E490CE09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TVizzyFramework/Pods-TVizzyFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4A86413205FF3D800849A7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4EFD674205FF84800EB9A4D /* FantasticView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +319,7 @@
 		};
 		F4A86421205FF3D800849A7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E20736B780D66894DE0BC42 /* Pods-TVizzyFramework.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -268,6 +339,7 @@
 		};
 		F4A86422205FF3D800849A7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7104113F87E743352DC9B7D7 /* Pods-TVizzyFramework.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
