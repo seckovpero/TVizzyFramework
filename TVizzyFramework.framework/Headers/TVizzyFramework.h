@@ -14,6 +14,7 @@ FOUNDATION_EXPORT double TVizzyFrameworkVersionNumber;
 //! Project version string for TVizzyFramework.
 FOUNDATION_EXPORT const unsigned char TVizzyFrameworkVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <TVizzyFramework/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like
+#import <TVizzyFramework/LoginView.h>
 
 

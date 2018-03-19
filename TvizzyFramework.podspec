@@ -20,7 +20,7 @@ s.author = { "Pero" => "seckovpero@gmail.com" }
 s.homepage = "https://github.com/seckovpero/TVizzyFramework"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :http => "https://www.dropbox.com/s/khqn7w8xh53x0ib/TVizzyFramework.zip?dl=0"}
+s.source = { :http => "https://www.dropbox.com/s/2tlgfge1h6htq2n/TVizzyFramework.zip?dl=0"}
 s.ios.vendored_frameworks = 'TVizzyFramework.framework'
 # 7
 s.framework = "UIKit"
