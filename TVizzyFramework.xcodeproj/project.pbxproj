@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		69384F8969373EF5491B76DF /* libPods-TVizzyFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ECEB9CE76772D28F0BE9D5B /* libPods-TVizzyFramework.a */; };
+		F424130E20611AC60092444D /* VideoPresentationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F424130D20611AC60092444D /* VideoPresentationView.m */; };
+		F424131020611ACA0092444D /* VideoPresentationView.h in Headers */ = {isa = PBXBuildFile; fileRef = F424130F20611ACA0092444D /* VideoPresentationView.h */; };
+		F424131320611B5D0092444D /* NotificationVideoBL.h in Headers */ = {isa = PBXBuildFile; fileRef = F424131120611B5D0092444D /* NotificationVideoBL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F424131420611B5D0092444D /* NotificationVideoBL.m in Sources */ = {isa = PBXBuildFile; fileRef = F424131220611B5D0092444D /* NotificationVideoBL.m */; };
 		F4A8641D205FF3D800849A7B /* TVizzyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A8641B205FF3D800849A7B /* TVizzyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4EFD673205FF84800EB9A4D /* LoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EFD671205FF84800EB9A4D /* LoginView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4EFD674205FF84800EB9A4D /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EFD672205FF84800EB9A4D /* LoginView.m */; };
@@ -17,6 +21,10 @@
 		0ECEB9CE76772D28F0BE9D5B /* libPods-TVizzyFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TVizzyFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7104113F87E743352DC9B7D7 /* Pods-TVizzyFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVizzyFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-TVizzyFramework/Pods-TVizzyFramework.release.xcconfig"; sourceTree = "<group>"; };
 		9E20736B780D66894DE0BC42 /* Pods-TVizzyFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVizzyFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVizzyFramework/Pods-TVizzyFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		F424130D20611AC60092444D /* VideoPresentationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPresentationView.m; sourceTree = "<group>"; };
+		F424130F20611ACA0092444D /* VideoPresentationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPresentationView.h; sourceTree = "<group>"; };
+		F424131120611B5D0092444D /* NotificationVideoBL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationVideoBL.h; sourceTree = "<group>"; };
+		F424131220611B5D0092444D /* NotificationVideoBL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationVideoBL.m; sourceTree = "<group>"; };
 		F4A86418205FF3D800849A7B /* TVizzyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TVizzyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A8641B205FF3D800849A7B /* TVizzyFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVizzyFramework.h; sourceTree = "<group>"; };
 		F4A8641C205FF3D800849A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +84,10 @@
 			children = (
 				F4EFD671205FF84800EB9A4D /* LoginView.h */,
 				F4EFD672205FF84800EB9A4D /* LoginView.m */,
+				F424130D20611AC60092444D /* VideoPresentationView.m */,
+				F424130F20611ACA0092444D /* VideoPresentationView.h */,
+				F424131120611B5D0092444D /* NotificationVideoBL.h */,
+				F424131220611B5D0092444D /* NotificationVideoBL.m */,
 				F4A8641B205FF3D800849A7B /* TVizzyFramework.h */,
 				F4A8641C205FF3D800849A7B /* Info.plist */,
 			);
@@ -91,6 +103,8 @@
 			files = (
 				F4A8641D205FF3D800849A7B /* TVizzyFramework.h in Headers */,
 				F4EFD673205FF84800EB9A4D /* LoginView.h in Headers */,
+				F424131020611ACA0092444D /* VideoPresentationView.h in Headers */,
+				F424131320611B5D0092444D /* NotificationVideoBL.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F424130E20611AC60092444D /* VideoPresentationView.m in Sources */,
 				F4EFD674205FF84800EB9A4D /* LoginView.m in Sources */,
+				F424131420611B5D0092444D /* NotificationVideoBL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -308,7 +324,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
