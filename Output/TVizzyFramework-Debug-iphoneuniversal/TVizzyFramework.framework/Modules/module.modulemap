@@ -1,0 +1,6 @@
+framework module TVizzyFramework {
+  umbrella header "TVizzyFramework.h"
+
+  export *
+  module * { export * }
+}
