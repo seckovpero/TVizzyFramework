@@ -27,6 +27,10 @@
 		F424131320611B5D0092444D /* NotificationVideoBL.h in Headers */ = {isa = PBXBuildFile; fileRef = F424131120611B5D0092444D /* NotificationVideoBL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F424131420611B5D0092444D /* NotificationVideoBL.m in Sources */ = {isa = PBXBuildFile; fileRef = F424131220611B5D0092444D /* NotificationVideoBL.m */; };
 		F4A8641D205FF3D800849A7B /* TVizzyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A8641B205FF3D800849A7B /* TVizzyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4EA8DFA2062A78500D63E47 /* WebView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EA8DF82062A78500D63E47 /* WebView.m */; };
+		F4EA8DFB2062A78500D63E47 /* WebView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EA8DF92062A78500D63E47 /* WebView.h */; };
+		F4EA8DFE2062A7E900D63E47 /* WebViewBL.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EA8DFC2062A7E900D63E47 /* WebViewBL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4EA8DFF2062A7E900D63E47 /* WebViewBL.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EA8DFD2062A7E900D63E47 /* WebViewBL.m */; };
 		F4EFD673205FF84800EB9A4D /* LoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EFD671205FF84800EB9A4D /* LoginView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4EFD674205FF84800EB9A4D /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EFD672205FF84800EB9A4D /* LoginView.m */; };
 /* End PBXBuildFile section */
@@ -42,6 +46,10 @@
 		F4A86418205FF3D800849A7B /* TVizzyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TVizzyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A8641B205FF3D800849A7B /* TVizzyFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVizzyFramework.h; sourceTree = "<group>"; };
 		F4A8641C205FF3D800849A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4EA8DF82062A78500D63E47 /* WebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebView.m; sourceTree = "<group>"; };
+		F4EA8DF92062A78500D63E47 /* WebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebView.h; sourceTree = "<group>"; };
+		F4EA8DFC2062A7E900D63E47 /* WebViewBL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewBL.h; sourceTree = "<group>"; };
+		F4EA8DFD2062A7E900D63E47 /* WebViewBL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewBL.m; sourceTree = "<group>"; };
 		F4EFD671205FF84800EB9A4D /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
 		F4EFD672205FF84800EB9A4D /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,8 +110,12 @@
 				F424130F20611ACA0092444D /* VideoPresentationView.h */,
 				F424131120611B5D0092444D /* NotificationVideoBL.h */,
 				F424131220611B5D0092444D /* NotificationVideoBL.m */,
+				F4EA8DF92062A78500D63E47 /* WebView.h */,
+				F4EA8DF82062A78500D63E47 /* WebView.m */,
 				F4A8641B205FF3D800849A7B /* TVizzyFramework.h */,
 				F4A8641C205FF3D800849A7B /* Info.plist */,
+				F4EA8DFC2062A7E900D63E47 /* WebViewBL.h */,
+				F4EA8DFD2062A7E900D63E47 /* WebViewBL.m */,
 			);
 			path = TVizzyFramework;
 			sourceTree = "<group>";
@@ -117,6 +129,8 @@
 			files = (
 				F4A8641D205FF3D800849A7B /* TVizzyFramework.h in Headers */,
 				F4EFD673205FF84800EB9A4D /* LoginView.h in Headers */,
+				F4EA8DFE2062A7E900D63E47 /* WebViewBL.h in Headers */,
+				F4EA8DFB2062A78500D63E47 /* WebView.h in Headers */,
 				F424131020611ACA0092444D /* VideoPresentationView.h in Headers */,
 				F424131320611B5D0092444D /* NotificationVideoBL.h in Headers */,
 			);
@@ -247,8 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F424130E20611AC60092444D /* VideoPresentationView.m in Sources */,
+				F4EA8DFA2062A78500D63E47 /* WebView.m in Sources */,
 				F4EFD674205FF84800EB9A4D /* LoginView.m in Sources */,
 				F424131420611B5D0092444D /* NotificationVideoBL.m in Sources */,
+				F4EA8DFF2062A7E900D63E47 /* WebViewBL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
