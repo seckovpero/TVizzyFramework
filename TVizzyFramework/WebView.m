@@ -7,24 +7,30 @@
 //
 
 #import "WebView.h"
+#import <Masonry.h>
 
 @implementation WebView
 
--(instancetype)initWithHtml:(NSString *)html andFrame:(CGRect)frame {
-    self = [super initWithFrame:frame];
+-(instancetype)initWithHtml:(NSString *)html {
+    self = [super init];
     if (self) {
         self.html = html;
         [self setupViews];
+        [self setupConstraints];
     }
     return self;
 }
 
 -(void)setupViews {
     self.webView = [[UIWebView alloc] init];
-    self.webView.frame = self.frame;
     [self.webView loadHTMLString:_html baseURL:nil];
-    self.webView.backgroundColor = [UIColor clearColor];
 
     [self addSubview:self.webView];
+}
+
+-(void)setupConstraints {
+    [_webView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self);
+    }];
 }
 @end

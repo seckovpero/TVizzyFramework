@@ -8,6 +8,7 @@
 
 #import "WebViewBL.h"
 #import "WebView.h"
+#import <Masonry.h>
 
 @implementation WebViewBL
 
@@ -19,7 +20,11 @@
     } else {
         html = @"<!DOCTYPE html><html><body><h1>TYPE 2<h1><h1>This is heading 1</h1><h2>This is heading 2</h2><h3>This is heading 3</h3><h4>This is heading 4</h4><h5>This is heading 5</h5><h6>This is heading 6</h6></body></html>";
     }
-    [view addSubview:[[WebView alloc] initWithHtml:html andFrame:view.frame]];
+    WebView *webView = [[WebView alloc] initWithHtml:html];
+    [view addSubview:webView];
+    [webView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(view);
+    }];
 }
 
 @end

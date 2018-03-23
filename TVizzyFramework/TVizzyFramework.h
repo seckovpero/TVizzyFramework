@@ -18,3 +18,6 @@ FOUNDATION_EXPORT const unsigned char TVizzyFrameworkVersionString[];
 #import <TVizzyFramework/LoginView.h>
 #import <TVizzyFramework/NotificationVideoBL.h>
 #import <TVizzyFramework/WebViewBL.h>
+#import <TVizzyFramework/NavigationView.h>
+#import <TVizzyFramework/SettingsView.h>
+#import <TVizzyFramework/NewsFeedTableView.h>

@@ -11,6 +11,6 @@
 
 @interface WebViewBL : NSObject
 
-// When you call this function webView with specific type is added to yourView
+// When you call this function webView with specific type is added to your view
 -(void)presentWebViewIn:(UIView*)view type:(NSString*)type;
 @end

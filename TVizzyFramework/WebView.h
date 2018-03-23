@@ -12,5 +12,5 @@
 @property (nonatomic,strong) UIWebView *webView;
 @property (nonatomic,strong) NSString *html;
 
--(instancetype)initWithHtml:(NSString *)html andFrame:(CGRect)frame;
+-(instancetype)initWithHtml:(NSString *)html;
 @end
